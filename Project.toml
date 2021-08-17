@@ -1,0 +1,13 @@
+name = "PackageName"
+uuid = "c6410b4b-580d-4542-b704-df167ee1f611"
+authors = ["alto <victor1301166040@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
